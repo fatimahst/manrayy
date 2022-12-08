@@ -1,0 +1,244 @@
+{"intents": [
+  {"tag": "greeting",
+    "patterns": ["Hi", 
+                 "Hai", 
+                 "Halo", 
+                 "Apa kabar?", 
+                 "Hei", 
+                 "Hey", 
+                 "Hello", 
+                 "Selamat pagi", "Pagi",
+                 "Selamat siang", "Siang",
+                 "Selamat sore", "Sore",
+                 "Selamat malam", "Malam"
+                ],
+    "responses": ["Halo, ada yang bisa kami bantu?",
+                  "Halo, ada yang bisa dibantu?",
+                  "Hai, ada yang bisa kami bantu?",
+                  "Hai, ada yang bisa dibantu?",
+                  "Senang bertemu denganmu, ada yang bisa dibantu?",
+                  "Senang bertemu denganmu, ada yang bisa kami bantu?"
+                ]
+  },
+
+  {"tag": "Definisi IHSG",
+    "patterns": ["Apa itu IHSG?", "IHSG?",
+                 "Apa pengertian IHSG?",
+                 "Apa definisi IHSG?",
+                 "IHSG itu apa?",
+                 "Apa itu Indeks Harga Saham Gabungan?",
+                 "Indeks Harga Saham Gabungan?"
+                ],
+    "responses": ["Indeks Harga Saham Gabungan (IHSG) adalah indeks yang mengukur kinerja harga semua saham yang tercatat di Bursa Efek Indonesia. Di pasar global, IHSG juga dikenal sebagai Indonesia Composite Index (ICI) atau IDX Composite.",
+                  "Indeks Harga Saham Gabungan atau IHSG adalah sebuah indeks pasar saham yang digunakan oleh BEI sebagai indikator pergerakan harga saham. Indeks ini mencakup semua harga saham biasa dan preferensi yang tercatat dalam BEI. Artinya, pergerakan indeks menggambarkan apakah pasar saham sedang aktif atau lesu.",
+                  "IHSG adalah singkatan dari Indeks Harga Saham Gabungan. Pengertian IHSG adalah sebuah indeks harga yang digunakan dalam Bursa Efek Indonesia sebagai patokan para investor untuk mengukur keuntungan melihat pergerakan pasar.",
+                  "Indeks yang mengukur kinerja harga semua saham yang tercatat di Papan Utama dan Papan Pengembangan Bursa Efek Indonesia."]
+  },
+
+  {"tag": "Fungsi IHSG",
+    "patterns": ["Apa fungsi IHSG?",
+                 "Fungsi IHSG?",
+                 "IHSG untuk apa?",
+                 "IHSG untuk?"
+                ],
+    "responses": ["Mengestimasi tingkat keuntungan, Melihat perkembangan kondisi ekonomi, Indikator pergerakan pasar, Mengukur kinerja portofolio"]
+  },
+
+  {"tag": "Istilah dalam IHSG Portofolio",
+    "patterns": ["Apa itu portofolio dalam IHSG?",
+                 "Apa itu portofolio?",
+                 "Portofolio?",
+                 "Pengertian Portofolio",
+                 "Definisi Portofolio",
+                 "Penjelasan portofolio",
+                 "Portofolio dalam IHSG"
+                 ],
+    "responses": ["Dalam IHSG, portofolio merupakan suatu kumpulan aset investasi berupa saham yang dipegang oleh individu atau perusahaan."]
+  },
+
+  {"tag": "Istilah dalam IHSG Fluktuasi",
+    "patterns": ["Apa itu fluktuasi dalam IHSG?",
+                 "Apa itu fluktuasi?", "fluktuasi?",
+                 "Pengertian fluktuasi",
+                 "Definisi fluktuasi",
+                 "fluktuasi dalam IHSG?",
+                 "Penjelasan fluktuasi"
+                ],
+    "responses": ["Fluktuasi merupakan perubahan suatu harga saham, baik itu peningkatan maupun penurunan. Naik dan turunnya harga saham kerap terjadi karena berbagai kondisi yang terjadi pada pasar saham dan di sekitar pasar saham. Sehingga, hal tersebut lumrah terjadi dan patut diperhatikan oleh para investor."]
+  },
+
+  {"tag": "Istilah dalam IHSG Bubble",
+    "patterns": ["Apa itu bubble dalam IHSG?",
+                 "Apa itu bubble?", "bubble?", 
+                 "Pengertian bubble",
+                 "Definisi bubble",
+                 "Penjelasan bubble",
+                 "Bubble dalam IHSG?"
+                ],
+    "responses": ["Istilah bubble merupakan peningkatan harga saham tertentu secara signifikan. Bahkan, kenaikan tersebut bisa terkesan tidak normal dan dapat melebihi harga pasaran saham. Peristiwa ini terjadi ketika terdapat hal yang tak terduga."]
+  },
+
+  {"tag": "Istilah dalam IHSG Buyback",
+    "patterns": ["Apa itu buyback dalam IHSG?", 
+                 "Apa itu buyback?", "buyback?",
+                 "Pengertian buyback",
+                 "Definisi buyback",
+                 "Penjelasan buyback",
+                 "Buyback dalam IHSG?"
+                ],
+    "responses": ["Istilah buyback merupakan kegiatan pembelian kembali beragam saham perusahaan dari para pemegang saham perusahaan tersebut."]
+  },
+
+  {"tag": "Istilah dalam IHSG Capital Gain",
+    "patterns": ["Apa itu capital gain dalam IHSG?",
+                 "Apa itu capital gain?", "capital gain?",
+                 "pengertian capital gain",
+                 "definisi capital gain",
+                 "penjelasan capital gain",
+                 "capital gain dalam IHSG?"
+                ],
+    "responses": ["Capital gain merupakan keuntungan yang diraih oleh investor, baik itu individu atau perusahaan, setelah menanamkan saham dalam kurun waktu tertentu. Keuntungan tersebut berasal dari selisih harga penjualan saham dan harga beli saham."]
+  },
+
+  {"tag": "Istilah dalam IHSG Capital Loss",
+    "patterns": ["Apa itu Capital loss dalam IHSG?",
+                 "Apa itu capital loss?", " capital loss?",
+                 "pengertian capital loss",
+                 "definisi capital loss",
+                 "penjelasan capital loss",
+                 "capital loss dalam IHSG?"],
+    "responses": ["capital loss adalah kebalikan dari capital gain. Capital loss merupakan kerugian yang diterima oleh investor ketika harga jual saham lebih murah dari harga beli saham."]
+  },
+
+  {"tag": "Istilah dalam IHSG Cut Loss dan hold",
+    "patterns": ["Apa itu cut loss dalam IHSG?",
+    "Apa itu cut loss?", "cut loss?",
+    "pengertian cut loss",
+    "definisi cut loss",
+    "penjelasan cut loss",
+    "cut loss dalam IHSG?"],
+    "responses": ["Cut loss merupakan suatu kegiatan ketika investor, baik itu individu maupun perusahaan, memilih untuk menjual sahamnya kembali agar menghindari kerugian yang lebih besar."]
+  },
+
+  {"tag": "Istilah dalam ISHG Hold",
+    "patterns":["Apa itu hold dalam IHSG?",
+                "Apa itu hold?", "hold?",
+                "pengertian hold",
+                "definisi hold",
+                "penjelasan hold",
+                "hold dalam IHSG?"],
+    "responses": ["Hold adalah ketika saham tidak dijual, tapi dipertahankan oleh pemegang saham dengan harapan mendapat keuntungan di kemudian hari."]
+  },
+
+   {"tag": "Istilah dalam IHSG Likuiditas",
+    "patterns": ["Apa itu likuiditas dalam IHSG?", 
+    "Apa itu Likuiditas?", "Likuiditas?",
+    "Pengertian Likuiditas",
+    "Definisi Likuiditas",
+    "Penjelasan Likuiditas",
+    "Likuiditas dalam IHSG?"],
+    "responses": ["Likuiditas adalah sebuah ukuran jumlah kegiatan transaksi saham dalam pasar modal pada rentang waktu tertentu. Semakin tinggi tingkat likuiditas suatu saham, maka frekuensi jual-beli saham sesuai dengan tingkatan tersebut."]
+  },
+
+  {"tag": "Istilah dalam IHSG BEI",
+    "patterns": ["Apa itu BEI?",
+                 "Apa itu BEI?", "BEI?",
+                 "pengertian BEI",
+                 "definisi BEI",
+                 "penjelasan BEI",
+                 "BEI dalam IHSG?",
+                 "Apa itu Bursa Efek Indonesia dalam IHSG?",
+                 "Apa itu Bursa Efek Indonesia?", "Bursa Efek Indonesia?",
+                 "pengertian Bursa Efek Indonesia",
+                 "definisi Bursa Efek Indonesia",
+                 "penjelasan Bursa Efek Indonesia",
+                 "Bursa Efek Indonesia dalam IHSG"],
+    "responses": ["Bursa Efek Indonesia atau kerap disingkat BEI adalah kumpulan Bursa Efek Jakarta serta Bursa Efek Surabaya. Lembaga ini berfungsi untuk meningkatkan efektivitas transaksi serta operasional dalam pasar modal."]
+  },
+
+  {"tag": "Istilah dalam IHSG Bullish",
+    "patterns": ["Apa itu bullish dalam IHSG?", 
+                 "Apa itu bullish?", "bullish?",
+                 "Pengertian bullish",
+                 "Definisi bullish",
+                 "Penjelasan bullish",
+                 "bullish dalam IHSG"],
+    "responses":["Bullish artinya naik-turunnya harga saham dalam kurun waktu tertentu dengan indikasi tingkat optimisme para investor pada pasar saham."]
+  },
+
+  {"tag": "Faktor yang Mempengaruhi IHSG",
+    "patterns": ["Apa faktor yang mempengaruhi IHSG?", 
+                 "Faktor IHSG?",
+                 "Faktor naik turunnya IHSG",
+                 "Faktor yang mempengaruhi IHSG?",
+                 "Apa saja faktor yang mempengaruhi IHSG",
+                 "Naik turunnya IHSG disebabkan oleh apa?",
+                 "Apa penyebab naik turunnya IHSG?"
+                ],
+    "responses":["Fundamental Perusahaan, secara teori seharusnya ketika kinerja perusahaan naik, maka harga saham juga naik dan berdampak pada IHSG. Persepsi pelaku pasar merupakan reaksi pelaku pasar ketika melihat aksi korporasi atau pengumuman yang dikeluarkan oleh emiten atau perusahaan terbuka. Kebijakan pemerintah, ketika pemerintah mengeluarkan suatu kebijakan atau regulasi yang nantinya berdampak terhadap kinerja emiten ke depannya. Makro ekonomi, menjadi salah satu faktor yang mempengaruhi IHSG, seperti volume perdagangan saham, nilai tukar, dan suku bunga."]
+  },
+
+  {"tag": "Harga Open",
+    "patterns": ["Apa itu harga open?", 
+                 "Harga open?",
+                 "Apa yang dimaksud dengan harga open?",
+                 "Pengertian harga open",
+                 "Definisi harga open",
+                 "Apa pengertian dari harga open?",
+                 "Penjelasan harga open"
+                ],
+    "responses":["Harga open atau harga pembukaan adalah harga pertama kali transaksi dilakukan pada hari itu. Harga open tersebut mencerminkan semua informasi pasar yang ada, yang terjadi atau muncul diantara harga penutupan sehari sebelumnya dan ketika saat-saat terakhir pemodal boleh memasukkan order ke mesin bursa."]
+  },
+
+  {"tag": "Harga Close",
+    "patterns": ["Apa itu harga close?", 
+                 "Harga close?",
+                 "Apa yang dimaksud dengan harga close?",
+                 "Pengertian harga close",
+                 "Definisi harga close",
+                 "Apa pengertian dari harga close?",
+                 "Penjelasan harga close"
+                ],
+    "responses":["Harga Close merupakan harga terpenting dengan alasan harga close ini mencerminkan semua informasi yang ada pada semua pelaku pasar terutama pelaku pasar institusi yang memiliki informasi yang lebih akurat pada saat perdagangan saham tersebut berakhir. terutama bagi para hedge fund atau pengelola reksadana) harga close merupakan penentu dari kinerja dan kekayaan pemodal untuk hari itu. harga close mencerminkan posisi harga dimana pemodal berani melakukan posisi hold, dalam menghadapi semua informasi yang mungkin terjadi pada malam hari, ketika tidak terjadi perdagangan. Lebih dari 90% indikator teknikal yang digunakan oleh pelaku analisis teknikal, menggunakan harga close sebagai input utamanya.  Ini menyebabkan posisi dari harga close, bisa memicu signal beli atau signal jual. Harga penutupan adalah harga yang paling penting dalam analisis teknikal, karena akan menentukan bagaimana apa yang harus dilakukan oleh seorang analis teknikal tersebut."]
+  },
+
+  {"tag": "Harga High",
+    "patterns": ["Apa itu harga high?", 
+                 "Harga high?",
+                 "Apa yang dimaksud dengan harga high?",
+                 "Pengertian harga high",
+                 "Definisi harga high",
+                 "Apa pengertian dari harga high?",
+                 "Penjelasan harga high"
+                ],
+    "responses":["Harga tertinggi merupakan kisaran harga pergerakan harian dari saham tersebut dimana pemodal memiliki keberanian atau rasionalitas untuk melakukan posisi beli atau posisi jual.  Jika terdapat sebuah informasi yang bilang bahwa harga saham bisa membumbung setinggi langit, pemodal bisa saja terus melakukan aksi beli sehingga harga ditutup pada posisi autorejection atas, dan demikian pula berlaku sebaliknya"]
+  },
+
+  {"tag": "Harga Low",
+    "patterns": ["Apa itu harga low?", 
+                 "Harga low?",
+                 "Apa yang dimaksud dengan harga low?",
+                 "Pengertian harga low",
+                 "Definisi harga low",
+                 "Apa pengertian dari harga low?",
+                 "Penjelasan harga low"
+                ],
+    "responses":["Harga terendah  merupakan kisaran harga pergerakan harian dari saham tersebut dimana pemodal memiliki keberanian atau rasionalitas untuk melakukan posisi beli atau posisi jual. Jika terdapat sebuah informasi yang bilang bahwa harga saham bisa membumbung setinggi langit, pemodal bisa saja terus melakukan aksi beli sehingga harga ditutup pada posisi autorejection atas, dan demikian pula berlaku sebaliknya (vice versa).  Jika tidak terdapat berita apa-apa dan saham kehilangan minat dari pemodal untuk mentransaksikan saham tersebut, bisa saja harga high dan low terjadi pada harga yang sama (harga tidak bergerak)."]
+  },
+
+  {"tag": "Terima kasih",
+    "patterns": ["Terima kasih", 
+                 "Thanks",
+                 "Makasih",
+                 "Thanks",
+                 "Thank you",
+                 "Baik, terima kasih",
+                 "Terima kasih ya",
+                 "Terima kasih banyak",
+                 "Makasih ya"
+                ],
+    "responses":["Terima kasih, telah menggunakan layanan kami."]
+  }
+
+]
+}
